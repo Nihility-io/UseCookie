@@ -1,0 +1,25 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:js-cookie@^3.0.5": "npm:js-cookie@3.0.5",
+      "npm:preact@10.20.2": "npm:preact@10.20.2"
+    },
+    "npm": {
+      "js-cookie@3.0.5": {
+        "integrity": "sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==",
+        "dependencies": {}
+      },
+      "preact@10.20.2": {
+        "integrity": "sha512-S1d1ernz3KQ+Y2awUxKakpfOg2CEmJmwOP+6igPx6dgr6pgDvenqYviyokWso2rhHvGtTlWWnJDa7RaPbQerTg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "npm:js-cookie@^3.0.5"
+    ]
+  }
+}
