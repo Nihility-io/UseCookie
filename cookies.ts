@@ -1,4 +1,4 @@
-// @deno-types="npm:@types/js-cookie"
+// @deno-types="npm:@types/js-cookie@3.0.6"
 import JSCookies from "js-cookie"
 
 type CookieSubscriber<T = unknown> = (value: T, oldValue: T) => void
