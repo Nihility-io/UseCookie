@@ -1,5 +1,5 @@
 import { useEffect, useState } from "preact/hooks"
-import Cookies, { CookieOptions } from "./cookies.ts"
+import { CookieOptions, Cookies } from "./cookies.ts"
 
 /**
  * Creates a preact state that stores the value inside a cookie. useCookie updates in response

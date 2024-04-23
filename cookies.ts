@@ -48,7 +48,7 @@ export interface CookieOptions {
  * in order to notify subscribers when a cookie has changed.
  * It uses js-cookie under the hood
  */
-export default class Cookies {
+export class Cookies {
 	// Log interceptions if set to true
 	public static debug = true
 
