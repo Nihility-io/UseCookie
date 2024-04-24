@@ -50,7 +50,7 @@ export interface CookieOptions {
  */
 export class Cookies {
 	// Log interceptions if set to true
-	public static debug = true
+	public static debug = false
 
 	// Stores all subscribers for specific cookie names
 	static #subscribers: Record<string, CookieSubscriber[]> = {}
