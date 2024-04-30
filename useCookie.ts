@@ -19,7 +19,6 @@ export function useCookie<T>(name: string, defaultValue: T, options: CookieOptio
 
 		// Subscribe to changes to the cookie and update the state if changes are detected
 		const unsubscribe = Cookies.subscribe<T>(name, (newValue) => {
-			console.log(2)
 			setResult(newValue)
 		})
 
