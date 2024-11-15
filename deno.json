@@ -1,33 +1,33 @@
 {
-  "name": "@nihility-io/use-cookie",
-  "version": "0.1.4",
-  "exports": "./mod.ts",
-  "lock": true,
-  "tasks": {},
-  "imports": {
-    "js-cookie": "npm:js-cookie@^3.0.5",
-    "preact": "npm:preact@^10.22.0",
-    "preact/": "npm:/preact@^10.22.0/"
-  },
-  "lint": {
-    "rules": {
-      "tags": [
-        "fresh",
-        "recommended"
-      ]
-    }
-  },
-  "fmt": {
-    "useTabs": true,
-    "lineWidth": 120,
-    "indentWidth": 4,
-    "semiColons": false,
-    "singleQuote": false,
-    "proseWrap": "preserve"
-  },
-  "compilerOptions": {
-    "lib": [
-      "deno.window"
-    ]
-  }
+	"name": "@nihility-io/cookies",
+	"version": "0.1.0",
+	"exports": "./mod.ts",
+	"lock": true,
+	"tasks": {},
+	"imports": {
+		"js-cookie": "npm:js-cookie@^3.0.5",
+		"preact": "npm:preact@^10.24.3",
+		"preact/": "npm:/preact@^10.24.3/"
+	},
+	"lint": {
+		"rules": {
+			"tags": [
+				"fresh",
+				"recommended"
+			]
+		}
+	},
+	"fmt": {
+		"useTabs": true,
+		"lineWidth": 120,
+		"indentWidth": 4,
+		"semiColons": false,
+		"singleQuote": false,
+		"proseWrap": "preserve"
+	},
+	"compilerOptions": {
+		"lib": [
+			"deno.window"
+		]
+	}
 }
